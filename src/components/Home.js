@@ -6,7 +6,7 @@ import MyImage from "./photos/Rutu_image.png"
 // import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 
 // import { FaCode } from 'react-icons/fa';
-
+import resume from "./Resume.pdf";
 
 const styles={
 
@@ -58,7 +58,7 @@ export default function Home() {
         <p style={styles.box3}> I am a student of Computer Engineering at Vishwakarma Institute <br/> of Information Technology, Pune (Batch 2025).<br/>I like to build websites and models for machine learning that help solve real-life problems.<br/>I am an enthusiastic and passionate learner who is always keen to learn new technologies.</p>
         
     <div>
-    <button type="button" class="btn btn-outline-primary">View Resume</button>
+    <a href={resume}  type="button" class="btn btn-outline-primary">View Resume</a>
     
    
     </div>

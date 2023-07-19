@@ -27,7 +27,7 @@ export default function Project() {
     <p>June 2023</p>
     </div>
     <div>
-    <button type="button" class="btn btn-outline-primary"><FontAwesomeIcon icon={faGithub} />Github</button>
+    <a href={`https://github.com/sharvil112003/Jamshack_Hackathon`} type="button" class="btn btn-outline-primary"><FontAwesomeIcon icon={faGithub} />Github</a>
     </div>
 </div>
       </div>
@@ -47,7 +47,7 @@ membership for exclusive access to a particular room. </p>
     <p>March 2023-April 2023</p>
     </div>
     <div>
-    <button type="button" class="btn btn-outline-primary"><FontAwesomeIcon icon={faGithub} />Github</button>
+    <a href={`https://github.com/Rutuja-Bhandari/Hotel-Management-System`} type="button" class="btn btn-outline-primary"><FontAwesomeIcon icon={faGithub} />Github</a>
     </div>
 </div>
       </div>
