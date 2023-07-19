@@ -17,6 +17,9 @@ flex-direction: row;
 color: aqua;
 text-shadow: black 4px 4px;
 }
+.box4:hover{
+    text-shadow: 1vh 1vh 1vh #950077;
+}
 
 .box5{
     font-size: 3rem;

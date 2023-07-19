@@ -22,6 +22,10 @@ animation: slideRight 1s ease forwards;
     text-shadow: 1vh 1vh 2vh #739953;
 
 }
+.project:hover{
+    color: #f3f9ed;
+text-shadow: 1vh 1vh 2vh #74f905;
+}
 .projectgrid{
     display: inline-grid;
 grid-template-columns: auto auto auto;
@@ -36,6 +40,32 @@ margin: 5vh;
 padding: 5vh;
 border-radius: 5vh;
 box-shadow: 1vh 1vh 1vh 1vh #5c8484;
+}
+.projectcard:hover{
+    border: 0.5vh solid aqua;
+    box-shadow: 1vh 1vh 1vh 1vh aqua
+}
+.projectcard1{
+    border: 0.5vh solid #57aeae;
+margin: 5vh;
+padding: 5vh;
+border-radius: 5vh;
+box-shadow: 1vh 1vh 1vh 1vh #5c8484;
+}
+.projectcard1:hover{
+    border: 0.5vh solid aqua;
+    box-shadow: 1vh 1vh 1vh 1vh aqua
+}
+.projectcard2{
+    border: 0.5vh solid #57aeae;
+margin: 5vh;
+padding: 5vh;
+border-radius: 5vh;
+box-shadow: 1vh 1vh 1vh 1vh #5c8484;
+}
+.projectcard2:hover{
+    border: 0.5vh solid aqua;
+    box-shadow: 1vh 1vh 1vh 1vh aqua
 }
 .date{
     display:flex;

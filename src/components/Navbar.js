@@ -41,9 +41,6 @@ const styles = {
     height: "4vh",
     width: "4vh",
   },
-  // a: {
-  //   color: "aqua",
-  // },
 };
 
 export default function Navbar() {
@@ -91,7 +88,6 @@ export default function Navbar() {
             <div style={styles.icon}>
               <div style={styles.icon1}>
                 <a className="a"
-                  style={styles.a}
                   href={`https://www.linkedin.com/in/rutuja-bhandari-560571249`}
                 >
                   <FontAwesomeIcon style={styles.icon2} icon={faLinkedin} />
@@ -99,13 +95,12 @@ export default function Navbar() {
               </div>
 
               <div style={styles.icon1}>
-                <a className="a" style={styles.a} href={`https://github.com/Rutuja-Bhandari`}>
+                <a className="a"  href={`https://github.com/Rutuja-Bhandari`}>
                   <FontAwesomeIcon style={styles.icon2} icon={faGithub} />
                 </a>
               </div>
               <div style={styles.icon1}>
                 <a className="a"
-                  style={styles.a}
                   href={`https://leetcode.com/RutujaBhandari/`}
                 >
                   <FaCode style={styles.icon2} />
@@ -114,7 +109,6 @@ export default function Navbar() {
 
               <div style={styles.icon1}>
                 <a className="a"
-                  style={styles.a}
                   href={`https://www.instagram.com/rutu_b_18/`}
                 >
                   <FontAwesomeIcon style={styles.icon2} icon={faInstagram} />
@@ -122,20 +116,18 @@ export default function Navbar() {
               </div>
               <div style={styles.icon1}>
                 <a className="a"
-                  style={styles.a}
                   href={`https://api.whatsapp.com/send?phone=${whatsappNumber}`}
                 >
                   <FontAwesomeIcon style={styles.icon2} icon={faWhatsapp} />
                 </a>
               </div>
               <div style={styles.icon1}>
-                <a className="a" style={styles.a} href={`mailto:${emailAddress}`}>
+                <a className="a"  href={`mailto:${emailAddress}`}>
                   <EnvelopeFill style={styles.icon2} />
                 </a>
               </div>
               <div style={styles.icon1}>
                 <a className="a"
-                  style={styles.a}
                   href={`https://www.hackerrank.com/smartrb4`}
                 >
                   <FontAwesomeIcon style={styles.icon2} icon={faHackerrank} />
@@ -144,7 +136,6 @@ export default function Navbar() {
 
               <div style={styles.icon1}>
                 <a className="a"
-                  style={styles.a}
                   href={`https://www.codechef.com/users/rutuja218`}
                 >
                   <svg

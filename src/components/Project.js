@@ -31,7 +31,7 @@ export default function Project() {
     </div>
 </div>
       </div>
-      <div className="projectcard">
+      <div className="projectcard1">
         <h1 className="heading1">Hotel Management System</h1>
         <p className="description2">Hotel Management System is the website build for for the hotel to mantain their recorders of their customers. Through this website a user can also book the hotel rooms.It can show the availability of room , also contains the details of checkin,checkout, cancel booking,generate the bills.It offers a 2-year 
 membership for exclusive access to a particular room. </p>
@@ -51,7 +51,7 @@ membership for exclusive access to a particular room. </p>
     </div>
 </div>
       </div>
-      <div className="projectcard">
+      <div className="projectcard2">
         <h1 className="heading1">Smart watch integrated chatbot</h1>
         <p className="description3">It is the Chatbot integrated with the sensor GSR,HRV. Sensors are used to measure the Real time data and when it detect stress the chatbot gets activated to reduce the stress by its communication. It's data is used to make it more accurate</p>
 <div className="Technology">
