@@ -1,0 +1,76 @@
+.container{
+    /* margin: 5vh 5vh 5vh 55vh; */
+    /* border: 0.5vh solid rgb(238, 228, 240);
+    border-radius: 4vh;
+    background-color: rgb(77, 6, 91);
+    box-shadow: rgb(0, 0, 0) 1vh 2vh 2vh 1vh; */
+color: white;
+width: 100vh;
+padding: 5vh;
+}
+
+.heading{
+    text-align: center;
+    font-size: 3rem;
+    animation: slideRight 1s ease forwards;
+    animation-delay: 1s;
+    opacity: 0;
+}
+.box1{
+    display: flex;
+justify-content: center;
+animation: slideTop 1s ease forwards;
+    animation-delay: 1s;
+    opacity: 0;
+}
+.box2{
+    margin: 1vh;
+border: 0.5vh solid rgb(200, 155, 209);
+padding: 1vh;
+/* color: aqua; */
+border-radius: 2vh;
+font-size: 1.5rem;
+color: rgb(200, 155, 209);
+}
+
+@keyframes slideRight{
+    0%{
+        transform:translateX(-100px);
+        opacity: 0;
+    }
+    100%{
+        transform:translateX(0px);
+        opacity: 1;
+    }
+}
+@keyframes slideLeft{
+    0%{
+        transform:translateX(100px);
+        opacity: 0;
+    }
+    100%{
+        transform:translateX(0px);
+        opacity: 1;
+    }
+}
+@keyframes slideTop{
+    0%{
+        transform:translateY(100px);
+        opacity: 0;
+    }
+    100%{
+        transform:translateY(0px);
+        opacity: 1;
+    }
+}
+@keyframes slideBottom{
+    0%{
+        transform:translateY(-100px);
+        opacity: 0;
+    }
+    100%{
+        transform:translateY(0px);
+        opacity: 1;
+    }
+}
+

@@ -1,0 +1,58 @@
+.projectdiv{
+    color: white;
+}
+
+.heading1{
+    text-align: center;
+    background: linear-gradient(45deg, gold, #ff00b3);
+    background-clip: border-box;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.project{
+    text-align: center;
+    margin: 10vh;
+font-size: 3rem;
+
+}
+.projectgrid{
+    display: inline-grid;
+grid-template-columns: auto auto auto;
+}
+
+.projectcard{
+    border: 0.5vh solid #57aeae;
+margin: 5vh;
+padding: 5vh;
+border-radius: 5vh;
+box-shadow: 1vh 1vh 1vh 1vh #5c8484;
+}
+.date{
+    display:flex;
+    justify-content: space-between;
+    margin-top: 5vh;
+}
+
+.Technology{
+    display: inline-flex;
+}
+
+.techstack{
+    margin: 0.5vh;
+padding: 1vh;
+border: 0.5vh solid #ff5ace;
+border-radius: 2vh;
+box-shadow: 1vh 1vh 2vh #74596c;
+color: #ffa9e5;
+}
+
+.description1{
+    margin-top: 2vh;
+}
+.description2{
+    margin-top: 5vh;
+}
+.description3{
+    margin-top: 5vh;
+}
