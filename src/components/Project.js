@@ -4,8 +4,8 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
 export default function Project() {
   return (
-    <div className="projectdiv">
-        <h1 className="project">My Projects</h1>
+    <div id="projects" className="projectdiv">
+        <h1  className="project"><b>My Projects</b></h1>
         <div className="projectgrid">
       <div className="projectcard">
         <h1 className="heading1">Modish Trade</h1>

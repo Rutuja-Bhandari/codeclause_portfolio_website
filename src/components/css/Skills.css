@@ -15,11 +15,13 @@ padding: 5vh;
     animation: slideRight 1s ease forwards;
     animation-delay: 1s;
     opacity: 0;
+    color: #ff00b3;
+    text-shadow: 1vh 1vh 2vh #8e1575;
 }
 .box1{
     display: flex;
 justify-content: center;
-animation: slideTop 1s ease forwards;
+animation: slideLeft 1s ease forwards;
     animation-delay: 1s;
     opacity: 0;
 }

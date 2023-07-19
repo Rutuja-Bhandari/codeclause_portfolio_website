@@ -1,0 +1,63 @@
+.info{
+color: white;
+margin: 15vh 20vh;
+font-size: 2.5vh;
+animation: slideRight 1s ease forwards;
+    animation-delay: 1s;
+    opacity: 0;
+}
+.container2{
+display: flex;
+flex-direction: row;
+
+}
+
+.box4{
+    font-size: 3.5rem;
+color: aqua;
+text-shadow: black 4px 4px;
+}
+
+.box5{
+    font-size: 3rem;
+background: linear-gradient(178deg, red, blue) padding-box text;
+-webkit-text-fill-color: transparent;
+}
+
+.box3{
+    font-size: 1.1rem;
+}
+
+.photo{
+    width: 50vh;
+height: 50vh;
+border-radius: 50%;
+margin-top: 15vh;
+background-color: rgb(187, 0, 132);
+border: 1vh solid aliceblue;
+animation: slideLeft 1s ease forwards;
+    animation-delay: 1s;
+    opacity: 0;
+}
+
+
+@keyframes slideRight{
+    0%{
+        transform:translateX(-100px);
+        opacity: 0;
+    }
+    100%{
+        transform:translateX(0px);
+        opacity: 1;
+    }
+}
+@keyframes slideLeft{
+    0%{
+        transform:translateX(100px);
+        opacity: 0;
+    }
+    100%{
+        transform:translateX(0px);
+        opacity: 1;
+    }
+}

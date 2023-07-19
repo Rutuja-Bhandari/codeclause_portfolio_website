@@ -4,6 +4,7 @@
 
 .heading1{
     text-align: center;
+    
     background: linear-gradient(45deg, gold, #ff00b3);
     background-clip: border-box;
   -webkit-background-clip: text;
@@ -14,11 +15,19 @@
     text-align: center;
     margin: 10vh;
 font-size: 3rem;
+animation: slideRight 1s ease forwards;
+    animation-delay: 1s;
+    opacity: 0;
+    color: #cf9;
+    text-shadow: 1vh 1vh 2vh #739953;
 
 }
 .projectgrid{
     display: inline-grid;
 grid-template-columns: auto auto auto;
+animation: slideTop 1s ease forwards;
+    animation-delay: 1s;
+    opacity: 0;
 }
 
 .projectcard{
@@ -56,3 +65,46 @@ color: #ffa9e5;
 .description3{
     margin-top: 5vh;
 }
+
+
+@keyframes slideRight{
+    0%{
+        transform:translateX(-100px);
+        opacity: 0;
+    }
+    100%{
+        transform:translateX(0px);
+        opacity: 1;
+    }
+}
+@keyframes slideLeft{
+    0%{
+        transform:translateX(100px);
+        opacity: 0;
+    }
+    100%{
+        transform:translateX(0px);
+        opacity: 1;
+    }
+}
+@keyframes slideTop{
+    0%{
+        transform:translateY(100px);
+        opacity: 0;
+    }
+    100%{
+        transform:translateY(0px);
+        opacity: 1;
+    }
+}
+@keyframes slideBottom{
+    0%{
+        transform:translateY(-100px);
+        opacity: 0;
+    }
+    100%{
+        transform:translateY(0px);
+        opacity: 1;
+    }
+}
+

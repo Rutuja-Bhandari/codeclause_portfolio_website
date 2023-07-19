@@ -1,4 +1,5 @@
 import React from "react";
+import './css/Navbar.css'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { EnvelopeFill } from "react-bootstrap-icons";
 // import { AiOutlineMail } from 'react-icons/ai';
@@ -19,6 +20,9 @@ const emailAddress = "smartrb4@gmail.com";
 const styles = {
   nav: {
     backgroundColor: "black",
+    position: "sticky",
+    top:"0",
+    zIndex:10000
     //     minHeight:"10vh"
   },
   text: {
@@ -37,16 +41,17 @@ const styles = {
     height: "4vh",
     width: "4vh",
   },
-  a: {
-    color: "aqua",
-  },
+  // a: {
+  //   color: "aqua",
+  // },
 };
 
 export default function Navbar() {
   return (
-    <div style={styles.nav}>
+    <div  style={styles.nav}>
+      
       <nav class="navbar navbar-expand-lg navbar-light">
-        <span class="navbar-brand" style={styles.text}>
+        <span class="navbar-brand text" style={styles.text}>
           Rutuja
         </span>
         <button
@@ -61,16 +66,21 @@ export default function Navbar() {
           <span class="navbar-toggler-icon"></span>
         </button>
 
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <div class="text collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link" style={styles.text}>
-                Home <span class="sr-only">(current)</span>
+          <li class="nav-item">
+              <a href="#home" className="nav-link" style={styles.text}>
+                Home
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" style={styles.text}>
-                Link
+              <a href="#skills" class="nav-link" style={styles.text}>
+                Skills
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="#projects" class="nav-link" style={styles.text}>
+                Projects
               </a>
             </li>
           </ul>
@@ -80,7 +90,7 @@ export default function Navbar() {
 
             <div style={styles.icon}>
               <div style={styles.icon1}>
-                <a
+                <a className="a"
                   style={styles.a}
                   href={`https://www.linkedin.com/in/rutuja-bhandari-560571249`}
                 >
@@ -89,12 +99,12 @@ export default function Navbar() {
               </div>
 
               <div style={styles.icon1}>
-                <a style={styles.a} href={`https://github.com/Rutuja-Bhandari`}>
+                <a className="a" style={styles.a} href={`https://github.com/Rutuja-Bhandari`}>
                   <FontAwesomeIcon style={styles.icon2} icon={faGithub} />
                 </a>
               </div>
               <div style={styles.icon1}>
-                <a
+                <a className="a"
                   style={styles.a}
                   href={`https://leetcode.com/RutujaBhandari/`}
                 >
@@ -103,7 +113,7 @@ export default function Navbar() {
               </div>
 
               <div style={styles.icon1}>
-                <a
+                <a className="a"
                   style={styles.a}
                   href={`https://www.instagram.com/rutu_b_18/`}
                 >
@@ -111,7 +121,7 @@ export default function Navbar() {
                 </a>
               </div>
               <div style={styles.icon1}>
-                <a
+                <a className="a"
                   style={styles.a}
                   href={`https://api.whatsapp.com/send?phone=${whatsappNumber}`}
                 >
@@ -119,12 +129,12 @@ export default function Navbar() {
                 </a>
               </div>
               <div style={styles.icon1}>
-                <a style={styles.a} href={`mailto:${emailAddress}`}>
+                <a className="a" style={styles.a} href={`mailto:${emailAddress}`}>
                   <EnvelopeFill style={styles.icon2} />
                 </a>
               </div>
               <div style={styles.icon1}>
-                <a
+                <a className="a"
                   style={styles.a}
                   href={`https://www.hackerrank.com/smartrb4`}
                 >
@@ -133,7 +143,7 @@ export default function Navbar() {
               </div>
 
               <div style={styles.icon1}>
-                <a
+                <a className="a"
                   style={styles.a}
                   href={`https://www.codechef.com/users/rutuja218`}
                 >
@@ -157,6 +167,7 @@ export default function Navbar() {
           </form>
         </div>
       </nav>
+      
     </div>
   );
 }

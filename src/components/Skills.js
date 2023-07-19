@@ -6,7 +6,7 @@ import { SiMongodb } from 'react-icons/si';
 import { FaJava,FaStar,FaCss3Alt,FaPython, FaNodeJs,FaJsSquare,FaReact,FaHtml5} from 'react-icons/fa';
 export default function About() {
   return (
-    <div className="container" >
+    <div id="skills" className="container" >
       <p className="heading"><b>Skills</b></p>
       <div className="box1">
         <div className="box2"> 
