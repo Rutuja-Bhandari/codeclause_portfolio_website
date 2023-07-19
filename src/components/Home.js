@@ -1,4 +1,5 @@
 import React from 'react'
+
 import MyImage from "./photos/Rutu_image.png"
 // import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 // import { faLinkedin,faGithub } from '@fortawesome/free-brands-svg-icons';
@@ -46,6 +47,8 @@ border:" 1vh solid aliceblue",
 }
 
 export default function Home() {
+
+ 
   return (
     <div className="Container" style={styles.container}>
       <div className='info' style={styles.info}>
@@ -56,6 +59,8 @@ export default function Home() {
         
     <div>
     <button type="button" class="btn btn-outline-primary">View Resume</button>
+    
+   
     </div>
     
       </div>
@@ -66,3 +71,5 @@ export default function Home() {
     </div>
   )
 }
+
+
