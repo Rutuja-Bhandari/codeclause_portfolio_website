@@ -1,25 +1,23 @@
+.text {
+  animation: slideBottom 1s ease forwards;
+  animation-delay: 1s;
+  opacity: 0;
+}
+.a {
+  color: aqua;
+}
 
-.text{
-    animation: slideBottom 1s ease forwards;
-    animation-delay: 1s;
+.a:hover {
+  color: rgb(173, 58, 255);
+}
+
+@keyframes slideBottom {
+  0% {
+    transform: translateY(-100px);
     opacity: 0;
+  }
+  100% {
+    transform: translateY(0px);
+    opacity: 1;
+  }
 }
-.a{
-    color: aqua;
-}
-
-.a:hover{
-    color: rgb(173, 58, 255);
-}
-
-@keyframes slideBottom{
-    0%{
-        transform:translateY(-100px);
-        opacity: 0;
-    }
-    100%{
-        transform:translateY(0px);
-        opacity: 1;
-    }
-}
-

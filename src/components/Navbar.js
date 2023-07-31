@@ -1,8 +1,7 @@
 import React from "react";
-import './css/Navbar.css'
+import "./css/Navbar.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { EnvelopeFill } from "react-bootstrap-icons";
-// import { AiOutlineMail } from 'react-icons/ai';
 import {
   faCodechef,
   faHackerrank,
@@ -12,7 +11,6 @@ import {
   faGithub,
 } from "@fortawesome/free-brands-svg-icons";
 import { FaCode } from "react-icons/fa";
-// import { Link } from 'react-router-dom';
 
 const whatsappNumber = "9422612515";
 const emailAddress = "smartrb4@gmail.com";
@@ -21,9 +19,8 @@ const styles = {
   nav: {
     backgroundColor: "black",
     position: "sticky",
-    top:"0",
-    zIndex:10000
-    //     minHeight:"10vh"
+    top: "0",
+    zIndex: 10000,
   },
   text: {
     color: "white",
@@ -45,11 +42,10 @@ const styles = {
 
 export default function Navbar() {
   return (
-    <div  style={styles.nav}>
-      
+    <div style={styles.nav}>
       <nav class="navbar navbar-expand-lg navbar-light">
         <span class="navbar-brand text" style={styles.text}>
-          Rutuja
+          Portfolio
         </span>
         <button
           class="navbar-toggler"
@@ -65,7 +61,7 @@ export default function Navbar() {
 
         <div class="text collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mr-auto">
-          <li class="nav-item">
+            <li class="nav-item">
               <a href="#home" className="nav-link" style={styles.text}>
                 Home
               </a>
@@ -82,12 +78,10 @@ export default function Navbar() {
             </li>
           </ul>
           <form class="form-inline my-2 my-lg-0">
-            {/* <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search"/>
-      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button> */}
-
             <div style={styles.icon}>
               <div style={styles.icon1}>
-                <a className="a"
+                <a
+                  className="a"
                   href={`https://www.linkedin.com/in/rutuja-bhandari-560571249`}
                 >
                   <FontAwesomeIcon style={styles.icon2} icon={faLinkedin} />
@@ -95,47 +89,43 @@ export default function Navbar() {
               </div>
 
               <div style={styles.icon1}>
-                <a className="a"  href={`https://github.com/Rutuja-Bhandari`}>
+                <a className="a" href={`https://github.com/Rutuja-Bhandari`}>
                   <FontAwesomeIcon style={styles.icon2} icon={faGithub} />
                 </a>
               </div>
               <div style={styles.icon1}>
-                <a className="a"
-                  href={`https://leetcode.com/RutujaBhandari/`}
-                >
+                <a className="a" href={`https://leetcode.com/RutujaBhandari/`}>
                   <FaCode style={styles.icon2} />
                 </a>
               </div>
 
               <div style={styles.icon1}>
-                <a className="a"
-                  href={`https://www.instagram.com/rutu_b_18/`}
-                >
+                <a className="a" href={`https://www.instagram.com/rutu_b_18/`}>
                   <FontAwesomeIcon style={styles.icon2} icon={faInstagram} />
                 </a>
               </div>
               <div style={styles.icon1}>
-                <a className="a"
+                <a
+                  className="a"
                   href={`https://api.whatsapp.com/send?phone=${whatsappNumber}`}
                 >
                   <FontAwesomeIcon style={styles.icon2} icon={faWhatsapp} />
                 </a>
               </div>
               <div style={styles.icon1}>
-                <a className="a"  href={`mailto:${emailAddress}`}>
+                <a className="a" href={`mailto:${emailAddress}`}>
                   <EnvelopeFill style={styles.icon2} />
                 </a>
               </div>
               <div style={styles.icon1}>
-                <a className="a"
-                  href={`https://www.hackerrank.com/smartrb4`}
-                >
+                <a className="a" href={`https://www.hackerrank.com/smartrb4`}>
                   <FontAwesomeIcon style={styles.icon2} icon={faHackerrank} />
                 </a>
               </div>
 
               <div style={styles.icon1}>
-                <a className="a"
+                <a
+                  className="a"
                   href={`https://www.codechef.com/users/rutuja218`}
                 >
                   <svg
@@ -158,7 +148,6 @@ export default function Navbar() {
           </form>
         </div>
       </nav>
-      
     </div>
   );
 }
