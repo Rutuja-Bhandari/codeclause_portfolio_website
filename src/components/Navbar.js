@@ -45,7 +45,7 @@ export default function Navbar() {
     <div style={styles.nav}>
       <nav class="navbar navbar-expand-lg navbar-light">
         <span class="navbar-brand text" style={styles.text}>
-          Portfolio
+          Rutuja Bhandari
         </span>
         <button
           class="navbar-toggler"
